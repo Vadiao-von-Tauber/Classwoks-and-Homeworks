@@ -14,10 +14,7 @@ class IOEngine:
 
 
         # README03 close
-
-
         # README02 close
-
         # README01 close
 
         with open('readme.txt') as f:
