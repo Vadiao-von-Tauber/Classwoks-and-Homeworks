@@ -17,6 +17,16 @@ class IOEngine:
         # README02 close
         # README01 close
 
-        with open('readme.txt') as f:
+        with open('README01.txt') as f:
             lines = f.readlines()
             f.close()
+
+            with open('README02.txt') as ff:
+                lines = ff.readlines()
+
+                with open('README03.txt') as fff:
+                    lines = fff.readlines()
+
+                    #fff.close()
+                #ff.close()
+            #f.close()
