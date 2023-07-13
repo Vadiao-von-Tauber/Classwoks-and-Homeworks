@@ -4,6 +4,7 @@
 class IOEngine:
     @staticmethod
     def read_text_file():
+
         # 'README01.txt
         # 'README02.txt
         # 'README03.txt
@@ -17,16 +18,20 @@ class IOEngine:
         # README02 close
         # README01 close
 
-        with open('README01.txt') as f:
-            lines = f.readlines()
-            f.close()
+        #with open('README01.txt') as f:
+            #lines = f.readlines()
+            #f.close()
 
-            with open('README02.txt') as ff:
-                lines = ff.readlines()
+            #with open('README02.txt') as ff:
+                #lines = ff.readlines()
 
-                with open('README03.txt') as fff:
-                    lines = fff.readlines()
+                #with open('README03.txt') as fff:
+                    #lines = fff.readlines()
 
                     #fff.close()
                 #ff.close()
             #f.close()
+
+        with open('README01.txt', 'w') as f:
+            lines = f.readlines()
+            f.
