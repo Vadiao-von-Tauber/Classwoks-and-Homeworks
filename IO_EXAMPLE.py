@@ -32,6 +32,33 @@ class IOEngine:
                 #ff.close()
             #f.close()
 
-        with open('README01.txt', 'w') as f:
-            lines = f.readlines()
-            f.
+        with open('README01.txt', 'r') as f:
+
+
+
+           with open('RADIOHEAD_CREEP_TEXT.txt', 'w') as fwrite:
+
+
+           # lines = f.readlines()
+           # print(lines)
+           # [print(line.strip()) for line in f.readlines()]
+           #    [fwrite.write(line.strip()) for line in f.readlines()]
+               [fwrite.writelines(line.strip() + "\n") for line in f.readlines()]
+           # f.close()
+
+          #     with open('carramba.txt', encoding='utf8') as f:
+          #         for line in f:
+          #             print(line.strip())
+
+           for line in f:
+               print(line.strip())
+
+           while True:
+               line = f.readline()
+               if not line:
+                   break
+
+
+
+
+IOEngine.read_text_file()
