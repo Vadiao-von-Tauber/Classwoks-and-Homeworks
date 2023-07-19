@@ -1,3 +1,5 @@
+#classwork example file, a-ka ReadMe2.0
+
 #1 Country = China
 #2 TM = 12345
 #3 Business Adress = USA, FDC
