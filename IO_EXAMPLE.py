@@ -58,7 +58,8 @@ class IOEngine:
                if not line:
                    break
 
+               print(line.strip())
+            #f.close()
 
-
-
-IOEngine.read_text_file()
+#IOEngine.read_text_file()
+IOEngine.read_xml_file_minidom()
